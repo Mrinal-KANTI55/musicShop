@@ -1,0 +1,17 @@
+.letterSpacing{
+    letter-spacing: 5px;
+}
+.imgPosition{
+    position: relative ;
+    top: 75px;
+}
+.cardBoxBodyBG{
+    background-color: rgb(212, 211, 211);
+}
+.bgHeaderColor{
+    background-color: rgba(9,9,9,255) !important   ;
+}
+/* .backgroundImg{
+    background-image: url("../images/final/background.png");
+    background-repeat: no-repeat ;   
+} */

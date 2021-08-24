@@ -5,15 +5,120 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>musicShop</title>
+    <!-- bootstrap connection -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <header>
-
+    <header class="bgHeaderColor">
+        <div class="container text-white">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-white fs-3" href="#">audiophile</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                      <li class="nav-item">
+                        <a class="nav-link text-white fs-6" href="#">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white fs-6" href="#">HEADPHONES</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white fs-6" href="#">SPEAKERS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white fs-6" href="#">EARPHONES</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+        <div class="container row text-white d-flex justify-content-center align-items-center mx-auto">
+            <div class="col-lg-6 col-md-6 col-sm-12 ">
+                <h3 class="fs-6 letterSpacing">NEW PRODUCT</h3>
+                <h1 class="fs-1">XX99 MARK II HEADPHONES</h1>
+                <p >Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast</p>
+                <button class="btn btn-info text-white" type="submit">SEE PRODUCT</button>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <img class="img-fluid" src="images/final/fast.jpeg" alt="">
+            </div>
+        </div>
     </header>
     <main>
-        <h1>musicShop</h1>
+        <section>
+            <div class="container my-5">
+                <div class="row g-8">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                      <div class="card">
+                        <img src="images/card1.png" class="card-img-top w-50 imgPosition mx-auto" alt="...">
+                        <div class="card-body text-center cardBoxBodyBG ">
+                          <h5 class="card-title mt-5 text-white">HEADPHONES</h5>
+                          <button class="btn btn-light" type="submit">SHOP</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                      <div class="card">
+                        <img src="images/card2.png" class="card-img-top w-75 imgPosition mx-auto " alt="...">
+                        <div class="card-body cardBoxBodyBG text-center">
+                          <h5 class="card-title mt-5 text-white">HEADPHONES</h5>
+                          <button class="btn btn-light" type="submit">SHOP</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                      <div class="card">
+                        <img src="images/card3.png" class="card-img-top w-75 imgPosition mx-auto " alt="...">
+                        <div class="card-body cardBoxBodyBG text-center">
+                          <h5 class="card-title mt-5 text-white">HEADPHONES</h5>
+                          <button class="btn btn-light" type="submit">SHOP</button>
+                        </div>
+                      </div>
+                    </div>   
+                  </div>
+            </div>
+
+        </section>
+        <section class="container row mx-auto d-flex justify-content-center my-5 bg-success rounded text-white">
+            <div class="col-lg-6 col-md-12 col-sm-12 mt-5">
+                <img class="img-fluid w-50 ms-5" src="images/section2.png" alt="">
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 mt-5 mx-auto">
+                <h1 class="fs-1">ZX9 SPEAKER</h1>
+                <p>Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound</p>
+                <button class="btn btn-info" type="submit">SEE PRODUCT</button>
+            </div>
+
+        </section>
+        <section class="container row my-5 mx-auto btn-light d-flex justify-content-center align-items-center rounded">
+            <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+                <h1>ZX7 SPEAKER</h1>
+                <button type="submit">SEE PRODUCT</button>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <img class="w-75" src="images/graybg.png" alt=""width="95%" height="95%">
+            </div>
+
+        </section>
+        <section class="container row g-4 mx-auto my-5 d-flex justify-content-center align-items-center">
+            <div class="col-lg-6 col-md-6 col-sm-12 ">
+                <img class="rounded" src="images/final/sec3.jpeg" alt="" width="95%" height="95%">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <h1>YX1 EARPHONES</h1>
+                <button class="btn btn-danger" type="submit">SEE PRODUCT</button>
+            </div>
+
+        </section>
     </main>
     <footer></footer>
+    <!-- bootstrap js connection  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     
 </body>
 </html>
