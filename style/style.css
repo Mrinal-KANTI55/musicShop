@@ -15,3 +15,8 @@
     background-image: url("../images/final/background.png");
     background-repeat: no-repeat ;   
 } */
+
+.sectionBackgrounImg{
+    /* background-image: linear-gradient(rgba(233,233,235,255),rgba(173,181,191,255) ); */
+    background-image: linear-gradient(rgba(173,181,191,255),rgba(233,233,235,255) );
+}
